@@ -1,0 +1,16 @@
+nav:active {
+  font-family: "BioRhyme Expanded", serif;
+}
+
+.navItem {
+  transition: transform 2s cubic-bezier(1, 0, 0, 1);
+  &:hover {
+    color: hotpink;
+  }
+}
+
+.brandContainer  {
+  border-right: 10px solid #fff;
+  transition: all 2s cubic-bezier(1, 0, 0, 1),
+}
+

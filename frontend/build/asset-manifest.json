@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.568e87df.css",
+    "main.js": "/static/js/main.2f9ac2aa.js",
+    "static/js/192.c11e8da5.chunk.js": "/static/js/192.c11e8da5.chunk.js",
+    "static/js/792.4d3a762a.chunk.js": "/static/js/792.4d3a762a.chunk.js",
+    "static/media/Gagalin-Regular.svg": "/static/media/Gagalin-Regular.2a03c0c9b66726ad0e34.svg",
+    "static/media/Gagalin-Regular.eot": "/static/media/Gagalin-Regular.96692fa4b4a13e82de55.eot",
+    "static/media/Gagalin-Regular.woff": "/static/media/Gagalin-Regular.7c5db322e2f516336b7c.woff",
+    "index.html": "/index.html",
+    "main.568e87df.css.map": "/static/css/main.568e87df.css.map",
+    "main.2f9ac2aa.js.map": "/static/js/main.2f9ac2aa.js.map",
+    "192.c11e8da5.chunk.js.map": "/static/js/192.c11e8da5.chunk.js.map",
+    "792.4d3a762a.chunk.js.map": "/static/js/792.4d3a762a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.568e87df.css",
+    "static/js/main.2f9ac2aa.js"
+  ]
+}

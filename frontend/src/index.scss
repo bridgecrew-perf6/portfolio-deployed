@@ -1,0 +1,49 @@
+@mixin font($font-family, $font-file) {
+  @font-face {
+    font-family: $font-family;
+    src: url($font-file+'.eot');
+    src: url($font-file+'.eot?#iefix') format('embedded-opentype'),
+         url($font-file+'.woff') format('woff'),
+        //  url($font-file+'.ttf') format('truetype'),
+         url($font-file+'.svg#'+$font-family) format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+
+@include font('gagalin-Regular', './fonts/Gagalin-Regular');
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2B2529 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  background-color: #2b2529;
+  // margin: 0 5%;
+  
+
+  & .navItem a, .brandContainer a  {
+    color: #fff ;
+    text-decoration: none !important;
+  }
+  & .navItem  a:hover, .brandContainer a:hover {
+    color: hotpink;
+  }
+}
+
+.main-container, .fixed-top{
+  margin: 0 5%;
+}

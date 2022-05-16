@@ -1,0 +1,41 @@
+.header{
+    font-family: 'gagalin-Regular', 'Open Sans', sans-serif;
+}
+
+.hello{
+    color: rgb(225, 71, 71)
+}
+
+.defaulFont{
+    font-family: sans-serif;
+}
+
+#canvas{
+    height: 100vh;
+}
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-header > *{
+    margin: 100px 0;
+}
+
+
+.right-header img{
+    border-radius: 25px;
+}
+
+
+.img-container{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    mix-blend-mode: lighten;
+}
